@@ -24,7 +24,7 @@ class showMetricsOnTypeTool(ReporterPlugin):
 
 		scale = self.getScale()
 		NSBezierPath.setDefaultLineWidth_( 1.0/scale )
-		NSColor.darkGrayColor().set
+		NSColor.lightGrayColor().set
 
 		rp = layer.width
 		dp = font.selectedFontMaster.descender
